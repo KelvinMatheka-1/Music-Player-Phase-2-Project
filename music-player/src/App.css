@@ -37,3 +37,18 @@ body{
   background-size: contain;
   color: aliceblue;
 }
+.artistdetails{
+  margin-top: 15px;
+  border-bottom: 1px solid;
+}
+.titledetails{
+  margin-top: 15px;
+  
+}
+.artist-image{
+  margin-top: 15px; 
+}
+.musicControls{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
