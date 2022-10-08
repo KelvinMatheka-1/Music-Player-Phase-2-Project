@@ -40,7 +40,16 @@ function App() {
    <SideBar />
     <div className="App">
       
-    
+    <Switch>
+      <Route exact path='/home'>
+      {songs && <MusicPlayer currentSongI={currentSongI} setNextSongI={setNextSongI} setCurrentSongI={setCurrentSongI} nextSongI={nextSongI} songs={songs}/>}
+      </Route>
+      <Route path='/liblary'>
+          <Liblary />
+      </Route>
+      <Route path='/like'>
+        <Like />
+      </Route>
     </Switch>
     </div>
     </>
