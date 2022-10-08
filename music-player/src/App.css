@@ -14,3 +14,26 @@
   border:1px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37)
 }
+*{
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  
+  width: 250px;
+  height: 47%;
+  margin-right: 20px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: aliceblue;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37)
+}
+body{
+  background-image: url('/src/pexels.jpg');
+  background-size: contain;
+  color: aliceblue;
+}
